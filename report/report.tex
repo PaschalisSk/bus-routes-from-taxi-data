@@ -1,0 +1,23 @@
+\documentclass{article}
+% Title Page
+\title{}
+\author{}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\bibliographystyle{icml2017}
+\begin{document}
+\begin{center}
+	\large Create transport routes for self driving cars and buses, given the trip start and point pairs\\ 	
+	\hspace{10pt}
+\end{center}
+\begin{itemize}
+	\item \textbf{Team:} Paschalis Skouzos(s1837504) 
+	\item \textbf{Problem statement:} Given start and end points of taxi trips inside Manhattan, I want to create routes for $k$ buses able to handle the demand. The major concern of my model is to minimise the travelling time of the passengers. For simplicity, I do not take into consideration waiting times at bus stops. An additional time penalty, proportional to the distance from the bus stop to the actual start and end points, will be implemented on each trip.
+	\item \textbf{Importance:} With pollution being a prime threat to our planet efficient public transportation can be a catalyst for individuals to stop using private vehicles.
+	\item \textbf{The relevant dataset:} The graph representation of the road network in Manhattan will be created by using data from OpenStreetMap. The data regarding trip start and end points comes from the New York City Taxi trip data of 2013 \citep{donovan_new_2016}.
+	\item \textbf{Preliminary ideas:} My only thought so far is to start by using a clustering algorithm in order to identify locations of high demand and afterwards find appropriate routes to serve those locations with my $k$ buses.
+	\item \textbf{Evaluation and Baselines:} I will evaluate my model  by supposing that each vehicle moves at constant speed $v$ and calculating the trip duration for each passenger. The baseline of my experiments will be the actual duration of the taxi ride which is available in the dataset.
+\end{itemize}
+
+\bibliography{refs}
+\end{document}          
