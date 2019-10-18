@@ -1,0 +1,2 @@
+pickup_node,dropoff_node,manhattan_distance,taxi_duration,bus_duration,buses,unique_buses,bus_ride_distance,walking_distance
+42421941,42435660,7401,1140,4421,3,3,3401,3673

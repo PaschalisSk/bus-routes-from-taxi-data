@@ -31,7 +31,7 @@ def haversine(lon1, lat1, lon2, lat2, unit_m = True):
     """
     Calculate the great circle distance between two points
     on the earth (specified in decimal degrees)
-    default unit : km
+    default unit : m
     """
     # convert decimal degrees to radians
     lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
@@ -57,7 +57,7 @@ def download_osm(left, bottom, right, top, proxy = False, proxyHost = "10.0.4.2"
 
     if (cache):
         ## cached tile filename
-        cachedTileFilename = "osm_map_{:.8f}_{:.8f}_{:.8f}_{:.8f}.map".format(left, bottom, right, top)
+        cachedTileFilename = "osm_map_{:.8f}_{:.8f}_{:.8f}_{:.8f}.medium.map.osm".format(left, bottom, right, top)
 
         if (verbose):
             print("Cached tile filename :", cachedTileFilename)
@@ -81,7 +81,7 @@ def download_osm(left, bottom, right, top, proxy = False, proxyHost = "10.0.4.2"
         urllib.request.install_opener(opener)
 
 
-    request = "http://api.openstreetmap.org/api/0.6/map?bbox=%f,%f,%f,%f"%(left,bottom,right,top)
+    request = "http://api.openstreetmap.org/api/0.6/medium.map.osm?bbox=%f,%f,%f,%f"%(left,bottom,right,top)
 
     if (verbose):
         print("Download the tile from osm web api ... in progress")

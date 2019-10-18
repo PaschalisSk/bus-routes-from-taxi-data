@@ -1,2 +1,8 @@
-.idea/*
-code/__pycache__/*
+.idea/
+__pycache__/
+data/full/
+data/trips.01-11-2013.07-11-2013.full.csv
+instructions/
+proposal/
+report/*
+!report/report.pdf

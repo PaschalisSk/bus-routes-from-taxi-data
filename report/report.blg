@@ -2,47 +2,49 @@ This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: report.aux
 The style file: icml2017.bst
-Database file #1: refs.bib
+Database file #1: project.bib
+Warning--empty publisher in blum_foundations_2018
 Warning--empty journal in donovan_new_2016
-You've used 1 entry,
+Warning--empty journal in klug_k-rnn:_2018
+You've used 20 entries,
             2773 wiz_defined-function locations,
-            599 strings with 4995 characters,
-and the built_in function-call counts, 423 in all, are:
-= -- 37
-> -- 21
-< -- 1
-+ -- 7
-- -- 6
-* -- 30
-:= -- 73
-add.period$ -- 5
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 1
-cite$ -- 3
-duplicate$ -- 19
-empty$ -- 31
-format.name$ -- 9
-if$ -- 82
+            727 strings with 8854 characters,
+and the built_in function-call counts, 9299 in all, are:
+= -- 849
+> -- 510
+< -- 17
++ -- 176
+- -- 156
+* -- 740
+:= -- 1432
+add.period$ -- 81
+call.type$ -- 20
+change.case$ -- 108
+chr.to.int$ -- 20
+cite$ -- 43
+duplicate$ -- 412
+empty$ -- 757
+format.name$ -- 184
+if$ -- 1953
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 15
-num.names$ -- 4
-pop$ -- 9
+missing$ -- 16
+newline$ -- 128
+num.names$ -- 82
+pop$ -- 230
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 91
 quote$ -- 0
-skip$ -- 17
+skip$ -- 332
 stack$ -- 0
-substring$ -- 2
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 301
+swap$ -- 62
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
-warning$ -- 1
-while$ -- 3
+type$ -- 210
+warning$ -- 3
+while$ -- 84
 width$ -- 0
-write$ -- 22
-(There was 1 warning)
+write$ -- 296
+(There were 3 warnings)
