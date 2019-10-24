@@ -6,7 +6,7 @@ Further information can be found in the report file.
 
 ## Abstract
 
-As the amount of available data increases so dothe opportunities of approaching old problemsfrom a different viewpoint.   Our paper tests anovel approach in creating bus routes based onopen-data, using taxi trips in Manhattan.  Afterbuilding a bus transportation network we com-pare  its performance  to  taxis and  find  that onaverage it requires 18 more minutes to completea journey.
+As the amount of available data increases so do the opportunities of approaching old problems from a different viewpoint.   Our paper tests a novel approach in creating bus routes based on open-data, using taxi trips in Manhattan.  After building a bus transportation network we compare  its performance  to  taxis and  find  that on average it requires 18 more minutes to complete a journey.
 
 ## Script Order
 
